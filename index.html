@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Image Auto Pagination</title>
+    <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=3, maximum-scale=1, minimum-scale=1" />
+    <link href="./main.css" type="text/css" rel="stylesheet"/>
+
+    <link href="./lib/imagePaginate.css" type="text/css" rel="stylesheet"/>
+    <script src="./lib/imagePaginate.js" type="text/javascript"></script>
+  </head>
+  <body>
+    
+    <!-- ImagePaginate -->
+    <div class="image-paginate" id="imagePaginate">
+      <div class="loading"><div></div><div></div><div></div></div>
+      <div class="wrapper">
+          <div>
+            <div>
+                <img src="https://picsum.photos/220/100/?image=21" width="220" height="100" alt="" />
+            </div>
+          </div>
+          <img src="https://picsum.photos/220/100/?image=22" width="220" height="100" alt="" />
+          <img src="https://picsum.photos/220/100/?image=23" width="220" height="100" alt="" />
+          <p><img src="https://picsum.photos/220/100/?image=24" width="220" height="100" alt="" /></p>
+          <div><img src="https://picsum.photos/220/100/?image=25" width="220" height="100" alt="" /></div>
+          <div><img src="https://picsum.photos/220/100/?image=26" width="220" height="100" alt="" /></div>
+          <div><img src="https://picsum.photos/220/100/?image=27" width="220" height="100" alt="" /></div>
+          <img src="https://picsum.photos/220/100/?image=28" width="220" height="100" alt="" />
+          <img src="https://picsum.photos/220/100/?image=29" width="220" height="100" alt="" />
+          <img src="https://picsum.photos/220/100/?image=30" width="220" height="100" alt="" />
+          <img src="https://picsum.photos/220/100/?image=31" width="220" height="100" alt="" />
+          <img src="https://picsum.photos/220/100/?image=32" width="220" height="100" alt="" />
+          <img src="https://picsum.photos/220/100/?image=33" width="220" height="100" alt="" />
+          <img src="https://picsum.photos/220/100/?image=34" width="220" height="100" alt="" />
+          <img src="https://picsum.photos/220/100/?image=35" width="220" height="100" alt="" />
+          <img src="https://picsum.photos/220/100/?image=36" width="220" height="100" alt="" />
+          <img src="https://picsum.photos/220/100/?image=37" width="220" height="100" alt="" />
+          <img src="https://picsum.photos/220/100/?image=38" width="220" height="100" alt="" />
+          <img src="https://picsum.photos/220/100/?image=39" width="220" height="100" alt="" />
+          <img src="https://picsum.photos/220/100/?image=30" width="220" height="100" alt="" />
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      // imagePaginate.init(elementId, pause, cssAnimationTime);
+      // Maker sure that cssAnimationTime match the CSS transition transform time on the
+      // .image-paginate > div.wrapper.transition
+      imagePaginate.init("imagePaginate", 4000, 700);
+    </script>
+
+  </body>
+</html>

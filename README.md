@@ -2,6 +2,10 @@
 
 This is a simple JS/CSS lib which will animate pagination of the images. The container is responsive and images inside will resize in order to fit the containers width in order to avoid having one image cut at the end.
 
+## Demo
+
+See [demo](https://damjancvetan.github.io/image-paginate/).
+
 ## Instructions
 
 * Library will take all the "img" tags within the imagePaginate element regardless of the location.

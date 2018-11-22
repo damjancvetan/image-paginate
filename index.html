@@ -54,7 +54,9 @@
       // imagePaginate.init(elementId, pause, cssAnimationTime);
       // Maker sure that cssAnimationTime match the CSS transition transform time on the
       // .image-paginate > div.wrapper.transition
-      imagePaginate.init("imagePaginate", 4000, 700);
+      window.onload = function() {
+        imagePaginate.init("imagePaginate", 4000, 700);
+      }
     </script>
 
   </body>
